@@ -8,6 +8,18 @@ JSONA CLI aims to be an one stop shop tool for working with JSONA files via the 
 
 We pre-compile each release for all major operating systems, these releases can be found on [GitHub Releases](https://github.com/jsona/jsona/releases).
 
+### npm
+
+This installs `binary` into your project so you can use via `CLI`
+
+```
+npm install jsona-rs-npm -D
+# or
+yarn add jsona-rs-npm -D
+# or
+bun add jsona-rs-npm -D
+```
+
 ### Cargo
 
 If you have a Rust toolchain installed, you can install CLI via the jsona-cli crate from crates.io.
